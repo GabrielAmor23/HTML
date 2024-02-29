@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Langosta & display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;;/*tipografia*/
+    background-color: rgb(255, 255, 255); /*color de fondo*/
+    color: black ;/*color de la letra*/
+    font-family: 400;/* espesor de la tipografia*/
+    background-color: #ccc;
+    text-align: center;
+    background: #534F50;
+    background: linear-gradient(135deg, #534F50, #056DB5);
+}
+header{
+    width: 1100px;
+    height: 220px;
+    font-family: 600;
+    margin: auto;
+    background-color: #00084B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    header img{
+       
+        margin-left: 26px;
+       
+    }
+    header nav{
+        margin-right: 15px;
+    }
+        header nav a{
+            text-decoration: none;/*quitar el subrayado*/
+            font-size: 26px;
+            margin-left: 22px;/*esto va a ser padding*/
+            color: #3E74FF;
+
+        }
+        header nav a:hover{
+            color:#CA302D;
+        }
+main{
+    width: 1100px;
+    min-height: 800px;
+    height: 1500px;
+    margin: auto;
+    background-color: rgba(7, 122, 253, 0.342);
+    font-weight: 600;
+    display: flex;;
+}
+#contacto{
+    height: 693px;
+}   
+#tratamiento{
+    height: 4000px;
+}
+        main h1{
+            display: none;
+        }
+            main section h2{
+                width: 1100px;
+                height: 240px;
+                background-color: #9EDDED;
+                margin-top: 24px;
+                font-family:'Jockey One', sans-serif ;
+                font-weight:400;
+                font-size: 65px;
+                color: #00084B;
+                border-radius: 24px 24px 24px 24px;
+                padding: 68px 178px ;
+            }
+            main section #contacto{
+                display: flex;
+                justify-content:space-between;
+                margin: 100px;    
+                text-align: center;
+                  
+                
+            }
+                main section #contacto #telefono{
+                    width: 420px;
+                    height: 320px;
+                    background-color: #5B8DCB;
+                    color: #00084B;
+                    font-family: 'Jockey One', sans-serif;
+                    font-size: 32px;
+                    border-radius: 36px;  
+                }
+                    main section #contacto #telefono a{
+                        text-decoration: none;
+                        color: #00084B;
+                    }
+                    main section #contacto #telefono a:hover{
+                        color:#CA302D;
+                    }
+                    main section #contacto #telefono div{
+                        margin-top:  90px ;
+                    }
+                main section #contacto  #direccion{
+                    width: 420px;
+                    height: 320px;
+                    background-color: #5B8DCB;
+                    color: #00084B;
+                    font-family:'Jockey One', sans-serif;
+                    font-size: 32px;
+                    border-radius: 36px;   
+                }
+                    main section #contacto #direccion a{
+                    text-decoration: none;
+                    color: #00084B;
+                    }
+                    main section #contacto #direccion a:hover{
+                    color:#CA302D;
+                    }
+                    main section #contacto #direccion div{
+                        margin-top:  90px ;
+                    }
+                main section ul{
+                    font-family:'Jockey One', sans-serif ;
+                    font-weight:400;
+                    font-size: 32px;
+                    text-align: left;
+                    color: #00084B;
+                        
+                    padding:0px 64px ;
+            
+                }
+    video{
+        width: 1100px;
+        height: 464px;
+        object-fit: cover;
+    }
+    section p{
+            
+        font-family:'Jockey One', sans-serif ;
+        font-weight:400;
+        font-size: 32px;
+        text-align: left;
+        color: #00084B;
+        padding:141px 52px ;
+    }
+    section strong{
+        color: #CA302D;
+    } 
+footer{
+    width: 1100px;/*ancho*/
+    height: 200px;/*altura*/
+    background-color: #00084B;
+    margin: auto;/*centrado*/  
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+};
+
+
+        

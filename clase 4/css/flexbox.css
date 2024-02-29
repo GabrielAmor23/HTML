@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+
+body{
+
+    background-color: #3c3c3c;
+   font-family: 'Courier New', Courier, monospace;
+   width: 768px;
+   margin: auto;
+}
+
+h1{
+    margin: 24px 0px;
+    color: #fff;    
+}
+
+h2{
+    margin: 24px 0px;
+    color: #fff;
+}
+
+#contenedor{
+    height: 350px;
+    background-color: #b7b7b7;
+    display: flex;/*es lo primero que se hace para ubicarlo uno al lado del otro
+    */
+    
+    /*distribucion en el eje horizontal*/
+    /*justify-content: start;predeterminado en la izquierda*/
+    /*justify-content: flex-end; hacia la derecha*/
+    /*justify-content: center; en el centro*/
+    justify-content: space-evenly;/*equitativ el espacio*/
+   /*justify-content: space-between; pegados en los bordes y equitativos
+   */
+}
+
+#contenedor2{
+    height: 350px;
+    background-color: #b7b7b7;
+    display: flex;/*es lo primero que se hace para ubicarlo uno al lado del otro
+    */
+    /*distribucion en el eje vertical*/
+
+    /*align-items: flex-start; predeterminado*/
+    /*align-items: flex-end; debajo*/
+    align-items: center;
+
+}
+
+#contenedor3{
+    height: 350px;
+    background-color: #b7b7b7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/*Todos los article*/
+
+article{
+width: 156px;
+height: 156px;
+background-color: #424e80;
+
+}

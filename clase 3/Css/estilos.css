@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Sans:ital,wght@0,600;1,200;1,400 & display=swap');
+body{
+    font-family: 'IBM Plex Sans', sans-serif;;/*tipografia*/
+    background-color: darkblue; /*color de fondo*/
+    color: cadetblue;/*color de la letra*/
+    font-family: 400;/* espesor de la tipografia*/
+    
+}
+
+h1{
+    font-weight: 600;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2? family= Langosta & display=swap');
+/*margin es para separar un elemento de otro*/
+
+body{
+
+    background-color:  blue;
+
+    color: rgb(148, 148, 248);
+
+    font-family: sans-serif;
+
+
+}
+
+
+
+h1{
+    background-color: rgb(18, 18, 68);
+    margin: 0px 32px;/*el primer numero arriba y abajo, el segundo izq y derecha*/
+
+}
+
+#amarillo{
+    height: 120px;/*altura*/
+    width: 240px; /*ancho*/
+    background-color: #ddf506;/*color de fondo*/
+    color: #06f526;/*color de letra*/
+    margin-top: 100px;/*separacion hacia arriba*/
+    margin-left: 50px;/*separacion hacia la izquierda*/
+
+}
+
+#verde{
+    height: 120px;
+    width: 240px;
+    background-color: #06f526;
+    margin: 64px;/*de todos los lados*/
+}
+
+#rojo{
+    height: 120px;
+    width: 240px;
+    background-color: #f50606;
+    margin: auto;/*centrar caja en el eje horizontal*/
+
+}

@@ -1,0 +1,36 @@
+
+body{
+    font-family: serif;
+    background-color: rgb(26, 59, 53);
+    color: #c9e9d0;
+
+}
+    main{
+        width: 768px;
+        margin: auto;
+    }
+
+    
+    h2{
+        margin: 24px 0px 40px 0px;
+
+    }
+    #contenedor{
+        height: 450px;
+        background: #ED2C63;
+        background: linear-gradient(135deg, #ED2C63, #59A929);
+
+    }
+    #contenedor2{
+        height: 450px;
+        background-color: #851535;
+        background-image: url(img/Image20240116143019.jpg);
+        background-size: cover;
+        /*
+         background-image: no-repeat; repeticion si es chica la imagen
+         background-image: repeat-y;
+         background-size: contain; Tamaño
+         background-size: cover;
+        */
+
+    }
